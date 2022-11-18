@@ -1,3 +1,92 @@
-h1 {
-    color: #f76c6c
+* {
+    box-sizing: border-box;
+}
+
+html, body, ul, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+body {
+    line-height: 1.5;
+}
+
+nav {
+    background-color: #f76c6c
+}
+
+ul {
+    list-style: none;
+    color: white;
+    padding-bottom: 0.6rem;
+    margin-left: 0.8rem;
+}
+
+ul li {
+    display: inline-block;
+}
+
+nav h1 {
+    color: white;
+    display: block;
+    padding-top: 1rem;
+    padding-left: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+header {
+    min-height: 250px;
+    background-image: url("https://loremflickr.com/cache/resized/65535_51834731681_f8f6442c98_h_1200_300_nofilter.jpg");
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+main {
+    background-color: #F2F2F2;
+}
+
+main section {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 3rem;
+    text-align: left;
+    max-width: 65ch;
+}
+
+main section h2 {
+    text-align: left;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.bloc-container {
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.bloc-container article {
+    border-radius: 8px;
+    box-shadow: -2px 2px 8px gray;
+    padding: 1rem;
+    background-color: white;
+}
+
+footer {
+    background-color: #f76c6c;
+}
+
+footer p {
+    color: black;
+    padding: 0.8rem;
 }
